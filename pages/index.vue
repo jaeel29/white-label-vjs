@@ -4,7 +4,8 @@
       <div class="container">
         <div class="content">
           <div class="logo">
-            <img src="/logo.png" alt="Logo" />
+            <!-- <img src="/logo.png" alt="Logo" /> -->
+            <NuxtImg src="/logo.png" alt="Logo" />
           </div>
 
           <nav class="header-links">
@@ -56,7 +57,8 @@
       <div class="container">
         <div class="content">
           <div class="logo">
-            <img src="/logo.png" alt="Logo" />
+            <!-- <img src="/logo.png" alt="Logo" /> -->
+            <NuxtImg src="/logo.png" alt="Logo" />
           </div>
 
           <div class="footer-links">
