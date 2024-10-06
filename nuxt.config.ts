@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     "@/assets/styles/main.css",
-    "~/assets/styles/colors.css",
-    // "@/assets/logo.svg",
+    "@/assets/styles/colors.css",
+    // "~/assets/photos/logo.png",
   ],
   vite: {
     assetsInclude: ["**/*.png"],

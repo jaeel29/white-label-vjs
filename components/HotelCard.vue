@@ -35,6 +35,7 @@ export default {
   font-family: var(--font-britti);
   padding-bottom: 64px;
   position: relative;
+  cursor: pointer;
 }
 
 .hotel-card:hover {
