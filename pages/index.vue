@@ -4,9 +4,8 @@
       <div class="container">
         <div class="content">
           <div class="logo">
-            <!-- <img src="/logo.png" alt="Logo" /> -->
+            <img src="~assets/logo.png" alt="Logo" />
             <!-- <img :src="require('~/assets/logo.png')" alt="Logo" /> -->
-            <img :src="logo" alt="Logo" />
           </div>
 
           <nav class="header-links">
@@ -90,7 +89,6 @@ export default {
   // Static hotel data with Unsplash images
   data() {
     return {
-      logo,
       hotels: [
         {
           id: 1,

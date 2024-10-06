@@ -8,11 +8,4 @@ export default defineNuxtConfig({
     "@/assets/styles/colors.css",
     "~/assets/logo.png",
   ],
-  vite: {
-    assetsInclude: ["**/*.png"],
-  },
-  domains: ["https://vercel.com"],
-  router: {
-    base: "/",
-  },
 });
