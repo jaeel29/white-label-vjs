@@ -3,9 +3,5 @@ export default defineNuxtConfig({
   modules: ["@nuxt/image"],
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  css: [
-    "@/assets/styles/main.css",
-    "@/assets/styles/colors.css",
-    "~/assets/logo.png",
-  ],
+  css: ["@/assets/styles/main.css", "@/assets/styles/colors.css"],
 });
