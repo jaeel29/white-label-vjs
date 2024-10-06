@@ -11,4 +11,5 @@ export default defineNuxtConfig({
   vite: {
     assetsInclude: ["**/*.png"],
   },
+  domains: ["https://vercel.com"],
 });
