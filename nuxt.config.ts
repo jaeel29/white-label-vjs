@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   css: [
     "@/assets/styles/main.css",
     "~/assets/styles/colors.css",
-    "@/assets/logo.svg",
+    // "@/assets/logo.svg",
   ],
 });
