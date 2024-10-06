@@ -4,7 +4,8 @@
       <div class="container">
         <div class="content">
           <div class="logo">
-            <img src="~assets/logo.png" alt="Logo" />
+            <!-- <img src="~assets/logo.png" alt="Logo" /> -->
+            <p>Logo</p>
             <!-- <img :src="require('~/assets/logo.png')" alt="Logo" /> -->
           </div>
 
@@ -59,6 +60,7 @@
           <div class="logo">
             <!-- <img src="/logo.png" alt="Logo" /> -->
             <!-- <img src="/logo.png" alt="Logo" /> -->
+            <p>Logo</p>
           </div>
 
           <div class="footer-links">
