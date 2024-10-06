@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   css: [
     "@/assets/styles/main.css",
     "@/assets/styles/colors.css",
-    // "~/assets/photos/logo.png",
+    "~/assets/logo.png",
   ],
   vite: {
     assetsInclude: ["**/*.png"],

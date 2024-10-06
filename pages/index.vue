@@ -5,7 +5,8 @@
         <div class="content">
           <div class="logo">
             <!-- <img src="/logo.png" alt="Logo" /> -->
-            <img src="/logo.png" alt="Photo" />
+            <!-- <img :src="require('~/assets/logo.png')" alt="Logo" /> -->
+            <img :src="logo" alt="Logo" />
           </div>
 
           <nav class="header-links">
@@ -58,7 +59,7 @@
         <div class="content">
           <div class="logo">
             <!-- <img src="/logo.png" alt="Logo" /> -->
-            <img src="/logo.png" alt="Logo" />
+            <!-- <img src="/logo.png" alt="Logo" /> -->
           </div>
 
           <div class="footer-links">
@@ -79,6 +80,7 @@
 <script>
 import SearchBar from "~/components/SearchBar.vue";
 import HotelCard from "~/components/HotelCard.vue";
+import logo from "~/assets/logo.png";
 
 export default {
   components: {
@@ -88,6 +90,7 @@ export default {
   // Static hotel data with Unsplash images
   data() {
     return {
+      logo,
       hotels: [
         {
           id: 1,
