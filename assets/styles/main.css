@@ -1,0 +1,120 @@
+/* assets/styles/main.css */
+:root {
+  --font-britti: "britti-sans";
+}
+
+/* @font-face {
+  font-family: "britti-sans";
+  src: url("/fonts/Britti-Sans-Semibold.woff2") format("woff2"),
+    url("/fonts/Britti-Sans-Semibold.woff") format("woff"),
+    url("/fonts/Britti-Sans-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "britti-sans";
+  src: url("/fonts/Britti-Sans-Variable.ttf") format("truetype");
+  /* font-weight: 600; */
+  font-style: normal;
+}
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f7f7f7; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0059b3;
+}
+
+/* Container with max-width of 1200px, centered */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+/* Grid layout for hotel cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .search-fields {
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-fields input,
+  .search-fields button {
+    width: 100%;
+  }
+
+  button {
+    padding: 10px;
+  }
+}
