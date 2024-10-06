@@ -12,4 +12,7 @@ export default defineNuxtConfig({
     assetsInclude: ["**/*.png"],
   },
   domains: ["https://vercel.com"],
+  router: {
+    base: "/",
+  },
 });
